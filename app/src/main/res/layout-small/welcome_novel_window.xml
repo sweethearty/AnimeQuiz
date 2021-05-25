@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/main_bacground"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/todo"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dawn" />
+
+    <ImageView
+        android:id="@+id/lecture_maket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/lecturer_maket" />
+
+    <ImageView
+        android:id="@+id/dialog_window_maket"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="fitEnd"
+        app:srcCompat="@drawable/dialog_place_maket" />
+
+    <FrameLayout
+        android:id="@+id/info_and_settings_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp">
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="left"
+            android:background="@drawable/closebtn_black100_press_gray100"
+            android:scaleType="fitStart" />
+
+        <Button
+            android:id="@+id/back1_btn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="left"
+            android:background="@drawable/closebtn_black100_press_gray100"
+            android:scaleType="fitStart" />
+
+        <Button
+            android:id="@+id/continue_btn"
+            android:layout_width="31dp"
+            android:layout_height="31dp"
+            android:layout_gravity="right"
+            android:background="@drawable/closebtn_black100_press_gray100"
+            android:scaleType="fitStart" />
+
+        <Button
+            android:id="@+id/continue1_btn"
+            android:layout_width="31dp"
+            android:layout_height="31dp"
+            android:layout_gravity="right"
+            android:background="@drawable/closebtn_black100_press_gray100"
+            android:scaleType="fitStart" />
+
+        <Button
+            android:id="@+id/further_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="right"
+            android:text="@string/further_btn"
+            android:textSize="13sp"
+            android:background="@drawable/closebtn_black100_press_gray100"
+            android:scaleType="fitStart" />
+
+        <ScrollView
+            android:id="@+id/dialog_maket_layout"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/novel_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:textColor="@color/white100"
+                android:text="TextView"
+                android:textSize="20sp" />
+        </ScrollView>
+
+    </FrameLayout>
+
+
+</RelativeLayout>

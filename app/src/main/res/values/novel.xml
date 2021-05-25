@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lvl1_novel1">Привет, я новый экзаменатор.</string>
+    <string name="lvl1_novel2">Если честно, работаю здесь недавно, так что, если что-то не так, заранее извиняюсь.</string>
+    <string name="lvl1_novel3">Что ж, со знанием популярных аниме у тебя трудностей не возникло - первый уровень был довольно легким, - но не жди, что так будет дальше.</string>
+    <string name="lvl1_novel4">В следующий раз я проверю, действительно ли они были тобою просмотрены. Все-таки все мы здесь собрались, чтобы проверить твои знания.</string>
+    <string name="lvl1_novel5">Ха, знания…</string>
+    <string name="lvl1_novel6">…</string>
+    <string name="lvl1_novel7">Что? Не смотри на меня так, я не над тобой смеюсь.</string>
+    <string name="lvl1_novel8">Нет, правда, не волнуйся.</string>
+    <string name="lvl1_novel9">…</string>
+    <string name="lvl1_novel10">Ладно, сменим тему.</string>
+    <string name="lvl1_novel11">Тебе, наверное, интересно, кто мы, экзаменаторы, и что здесь делаем, но об этом я может быть расскажу позже.</string>
+    <string name="lvl1_novel12">Мы еще недостаточно близи для таких интимных подробностей.</string>
+    <string name="lvl1_novel13">Все, что тебе стоит знать – мы будем встречаться на этом месте после прохождения тобой уровня.</string>
+    <string name="lvl1_novel14">Думаю, хватит на сегодня разговоров.</string>
+    <string name="lvl1_novel15">Надеюсь, проблем с прохождением следующего уровня у тебя не возникнет.</string>
+    <string name="lvl1_novel16">До встречи.</string>
+
+    <string name="lvl2_novel1">1</string>
+    <string name="lvl2_novel2">2</string>
+    <string name="lvl2_novel3">3</string>
+    <string name="lvl2_novel4">4</string>
+    <string name="lvl2_novel5">5</string>
+    <string name="lvl2_novel6">6</string>
+    <string name="lvl2_novel7">7</string>
+    <string name="lvl2_novel8">8</string>
+    <string name="lvl2_novel9">9</string>
+    <string name="lvl2_novel10">10</string>
+    <string name="lvl2_novel11">11</string>
+
+    <string name="lvl3_novel1">1</string>
+    <string name="lvl3_novel2">2</string>
+    <string name="lvl3_novel3">3</string>
+    <string name="lvl3_novel4">4</string>
+    <string name="lvl3_novel5">5</string>
+    <string name="lvl3_novel6">6</string>
+    <string name="lvl3_novel7">7</string>
+    <string name="lvl3_novel8">8</string>
+    <string name="lvl3_novel9">9</string>
+    <string name="lvl3_novel10">10</string>
+    <string name="lvl3_novel11">11</string>
+
+    <string name="lvl4_novel1">1</string>
+    <string name="lvl4_novel2">2</string>
+    <string name="lvl4_novel3">3</string>
+    <string name="lvl4_novel4">4</string>
+    <string name="lvl4_novel5">5</string>
+    <string name="lvl4_novel6">6</string>
+    <string name="lvl4_novel7">7</string>
+    <string name="lvl4_novel8">8</string>
+    <string name="lvl4_novel9">9</string>
+    <string name="lvl4_novel10">10</string>
+    <string name="lvl4_novel11">11</string>
+</resources>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">AnimeQuiz</string>
+    <string name="start_btn">Начать</string>
+    <string name="back_btn_for_levels">Назад</string>
+    <string name="number_of_lvl">Уровень:</string>
+    <string name="todo">TODO</string>
+    <string name="preview_continue_btn">Продолжить</string>
+    <string name="lvl_endwindow_btn">Начать сначала</string>
+    <string name="leave_lvl_headline">Внимание!</string>
+    <string name="leave_lvl_text">При выходе Ваш прогресс не будет сохранен. Все равно хотите выйти?</string>
+    <string name="further_btn">Далее</string>
+    <string name="leave_lvl_yes">Да</string>
+    <string name="leave_lvl_no">Нет</string>
+
+    <string name="info1">Информация</string>
+    <string name="info2">Здесь пока нет информации, но я свято верю, что когда-нибудь она появится.</string>
+    <string name="settings1">Настойки</string>
+    <string name="settings2">И настроек тоже нет, потому что… потому что… потому что потому.</string>
+
+    <string name="number_of_lvl_1">Уровень: 1</string>
+    <string name="number_of_lvl_2">Уровень: 2</string>
+    <string name="number_of_lvl_3">Уровень: 3</string>
+    <string name="number_of_lvl_4">Уровень: 4</string>
+    <string name="number_of_lvl_5">Уровень: 5</string>
+    <string name="number_of_lvl_6">Уровень: 6</string>
+    <string name="number_of_lvl_7">Уровень: 7</string>
+    <string name="number_of_lvl_8">Уровень: 8</string>
+    <string name="number_of_lvl_9">Уровень: 9</string>
+    <string name="number_of_lvl_10">Уровень: 10</string>
+
+    <string name="anime_name3">Как называется это аниме?</string>
+</resources>

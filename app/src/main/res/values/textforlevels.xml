@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lvl1_MyHeroAcademia">Моя Геройская Академия</string>
+    <string name="lvl1_AttackOnTitan">Атака титанов</string>
+    <string name="lvl1_HunterXHunter">Хантер х Хантер</string>
+    <string name="lvl1_AkameGaKill">Убийца Акамэ!</string>
+    <string name="lvl1_DemonSlayer">Клинок, рассекающий демонов</string>
+    <string name="lvl1_BlueExorcist">Синий экзорцист</string>
+    <string name="lvl1_Haikyuu">Волейбол!</string>
+    <string name="lvl1_OwariNoSeraf">Последний серафим</string>
+    <string name="lvl1_MasamuneNoRevenge">Месть Масамуне-куна!</string>
+    <string name="lvl1_Bakuman">Бакуман.</string>
+
+    <string name="lvl1_bakugo">Кацуки Бакуго</string>
+    <string name="lvl1_midoria">Изуку Мидория</string>
+    <string name="lvl1_eren">Эрен Йегер</string>
+    <string name="lvl1_levi">Леви Аккерман</string>
+    <string name="lvl1_killua">Киллуа Золдик</string>
+    <string name="lvl1_gon">Гон Фрикс</string>
+    <string name="lvl1_akame">Акамэ</string>
+    <string name="lvl1_tatsumi">Тацуми</string>
+    <string name="lvl1_tanjiro">Камадо Танджиро</string>
+    <string name="lvl1_giu">Гию Томиока</string>
+    <string name="lvl1_yukio">Юкио Окумура</string>
+    <string name="lvl1_rin">Рин Окумура</string>
+    <string name="lvl1_hinata">Шоё Хината</string>
+    <string name="lvl1_kageyama">Тобио Кагеяма</string>
+    <string name="lvl1_yuichiro">Юичиро Хакуя</string>
+    <string name="lvl1_mikaela">Микаэла Хакуя</string>
+    <string name="lvl1_aki">Аки Адагаки</string>
+    <string name="lvl1_masamune">Масамунэ Макабэ</string>
+    <string name="lvl1_moritaka">Маширо Моритака</string>
+    <string name="lvl1_akito">Тагаки Акито</string>
+
+
+    <string name="lvl2_ReZero">Жизнь с нуля в альтернативном мире</string>
+    <string name="lvl2_SteinsGates">Врата;Штейна</string>
+    <string name="lvl2_SAO">Мастера Меча Онлайн</string>
+    <string name="lvl2_AssassinationClassroom">Класс убийц</string>
+    <string name="lvl2_Naruto">Наруто</string>
+    <string name="lvl2_SoulEater">Пожиратель душ</string>
+    <string name="lvl2_Overlord">Оверлорд</string>
+    <string name="lvl2_Danganronpa">Школа отчаяния</string>
+    <string name="lvl2_Apocrypha">Судьба: Апокриф</string>
+    <string name="lvl2_UQHolder">Хранитель вечности!: Волшебный учитель Нэгима</string>
+
+    <string name="lvl2_felix">Феликс Аргайл</string>
+    <string name="lvl2_krush">Круш Карстен</string>
+    <string name="lvl2_maho">Хияджо Махо</string>
+    <string name="lvl2_ruka">Урушибара Рука</string>
+    <string name="lvl2_kirito">Кирито</string>
+    <string name="lvl2_sinon">Синон</string>
+    <string name="lvl2_nagisa">Нагиса Шиота</string>
+    <string name="lvl2_kaede">Каеде Каяно</string>
+    <string name="lvl2_suiren">Суйрен</string>
+    <string name="lvl2_haku">Хаку</string>
+    <string name="lvl2_hrona">Хрона Горгона</string>
+    <string name="lvl2_maka">Мака Албан</string>
+    <string name="lvl2_aura">Аура Белла Фиора</string>
+    <string name="lvl2_mare">Маре Белло Фиоре</string>
+    <string name="lvl2_chihiro">Чихиро Фуджисаки</string>
+    <string name="lvl2_monaka">Монака Това</string>
+    <string name="lvl2_raider">Райдер Чёрных</string>
+    <string name="lvl2_archer">Арчер Красных</string>
+    <string name="lvl2_tokisaka">Куромару Токисака</string>
+    <string name="lvl2_yukihime">Юкихиме</string>
+
+
+    <string name="lvl3_noragami">Бездомный Бог</string>
+    <string name="lvl3_promised_neverland">Обещанная Страна Грёз</string>
+    <string name="lvl3_doctor_stone">Доктор Стоун</string>
+    <string name="lvl3_jojo">Невероятные приключения ДжоДжо</string>
+    <string name="lvl3_tokyo_gul">Токийский гуль</string>
+    <string name="lvl3_stray_dogs">Великий из бродячих псов</string>
+    <string name="lvl3_shield_hero">Восхождение героя щита</string>
+    <string name="lvl3_soma">Повар-боец Сома</string>
+    <string name="lvl3_seven_sins">Семь смертных грехов</string>
+    <string name="lvl3_mob">Моб Психо 100</string>
+
+    <string name="lvl3_nice_to_meet_u_kami_sama">Очень приятно, Бог</string>
+    <string name="lvl3_promise_for_blue_sky">Обещание этому синему небу</string>
+    <string name="lvl3_doctor_ramune">Доктор Рамунэ, специалист по мистическим болезням</string>
+    <string name="lvl3_sinbad_adventures">Маги: Приключения Синдбада</string>
+    <string name="lvl3_tokyo_mew">Токио Мяу Мяу</string>
+    <string name="lvl3_dog_me_and_secret_job">Пёс, я и Секретная служба</string>
+    <string name="lvl3_hero_with_enemy">Герой при заклятом враге</string>
+    <string name="lvl3_cooker_of_heaven_hotel">Повар небесной гостиницы</string>
+    <string name="lvl3_seven_yamato">Семь обличий Надэсико Ямато</string>
+    <string name="lvl3_psychopass">Психопаспорт</string>
+
+    <string name="lvl3_goddess_student">Богиня-школьница</string>
+    <string name="lvl3_morning_with_promises_flowers">Укрась прощальное утро цветами обещания</string>
+    <string name="lvl3_doctor_for_monster_girls">Доктор для девушек-монстров</string>
+    <string name="lvl3_aleinas_trip">Путешествие Элейны</string>
+    <string name="lvl3_tokyo_ravens">Токийские вороны</string>
+    <string name="lvl3_legend_of_eight_dogs">Хаккэндэн: Легенда о восьми Псах Востока</string>
+    <string name="lvl3_heroes_of_forgiveness_times">Герои забытых времён</string>
+    <string name="lvl3_cafe_from_different_world">Кафе из другого мира</string>
+    <string name="lvl3_seven_idols">Семёрка идолов</string>
+    <string name="lvl3_psycho_girlfriend">Чокнутая подружка</string>
+
+    <string name="lvl3_momo_goddess_of_death">Момо, маленькая богиня смерти</string>
+    <string name="lvl3_deadman_wonderland">Страна чудес смертников</string>
+    <string name="lvl3_medical_jacks_cards">Медицинские карты Чёрного Джека</string>
+    <string name="lvl3_cinema_trip">Путешествие Кино: Прекрасный мир</string>
+    <string name="lvl3_tokyo_school_of_death">Токийская школа истребителей нечисти</string>
+    <string name="lvl3_dogs_voise_in_darkness">Псы: Вой во тьму</string>
+    <string name="lvl3_heroes_of_six_colors">Герои шести цветов </string>
+    <string name="lvl3_koizumi_loves_ramen">Коидзуми любит рамэн</string>
+    <string name="lvl3_seven_pleyadas">Плеяда семи звёзд</string>
+    <string name="lvl3_monster">Монстр</string>
+
+
+    <string name="lvl4_astra_in_cosmos">Астра, затерянная в космосе</string>
+    <string name="lvl4_champlu_samurai">Самурай Чамплу</string>
+    <string name="lvl4_city_where_u_live">Город, в котором ты живёшь</string>
+    <string name="lvl4_insects_destroyers">Убийца насекомых</string>
+    <string name="lvl4_login_horizont">Логин Горизонт</string>
+    <string name="lvl4_onmyoji_stars">Две звезды онмёджи</string>
+    <string name="lvl4_psionic_saiki_kusuo">Ох, уж этот экстрасенс Сайки Кусуо!</string>
+    <string name="lvl4_stop_this_sound">Задержи этот звук!</string>
+    <string name="lvl4_trigun">Триган</string>
+    <string name="lvl4_slime_rebirth">О моём перерождении в слизь</string>
+
+    <string name="lvl4_space_stellvia">Космическая Стеллвия</string>
+    <string name="lvl4_samurais_willed">Самурайский дух</string>
+    <string name="lvl4_city_where_no_me">Город, в котором меня нет</string>
+    <string name="lvl4_goblin_slayer">Убийца гоблинов</string>
+    <string name="lvl4_horizon_on_the_border_of_emptiness">Горизонт на границе пустоты</string>
+    <string name="lvl4_first_stars">Ведущие звёзды</string>
+    <string name="lvl4_makross_delta">Макросс Дельта</string>
+    <string name="lvl4_clear_sound">Чистый звук</string>
+    <string name="lvl4_mobile_warrior_gandam">Мобильный воин Гандам: Исток</string>
+    <string name="lvl4_unemployed_reincarnation">Реинкарнация безработного</string>
+
+    <string name="lvl4_moon_mile">Лунная миля: Приземление</string>
+    <string name="lvl4_seven_samurais">Семь самураев</string>
+    <string name="lvl4_yet_city_moves">А всё-таки город вертится</string>
+    <string name="lvl4_akame_ga_kill">Убийца Акамэ!</string>
+    <string name="lvl4_border_of_emptiness">Граница пустоты: Сад грешников</string>
+    <string name="lvl4_sky_where_stars_met">Небо, где встретились звёзды</string>
+    <string name="lvl4_different_side_of_glass">По ту сторону стекла</string>
+    <string name="lvl4_sounds_of_heaven">Звуки небес</string>
+    <string name="lvl4_spriggan">Спригган</string>
+    <string name="lvl4_fist_of_blue_sky">Кулак синих небес: Перерождение</string>
+
+    <string name="lvl4_voice_of_distant_star">Голос далёкой звезды</string>
+    <string name="lvl4_afrosamurai">Афросамурай</string>
+    <string name="lvl4_disappeared_town">Исчезнувший город</string>
+    <string name="lvl4_assassination_classroom">Класс убийц</string>
+    <string name="lvl4_girls_conquer_new_horizons">Девушки, покоряющие новые горизонты</string>
+    <string name="lvl4_stars_blink_together">Звёзды, сияющие вместе</string>
+    <string name="lvl4_google_it_kokkuri">Загугли! Коккури-сан</string>
+    <string name="lvl4_sounds_of_glass">Иллюзорные звуки зеркала</string>
+    <string name="lvl4_danganronpa">Данганронпа</string>
+    <string name="lvl4_villain_reincarnation">Моя реинкарнация в отомэ-игре в качестве главной злодейки</string>
+</resources>
