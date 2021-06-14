@@ -56,7 +56,7 @@ public class Level2 extends AppCompatActivity {
     int[] fourth_qArr = null;
 
 
-    @SuppressLint("ResourceAsColor")
+    @SuppressLint({"ResourceAsColor", "ClickableViewAccessibility"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -255,6 +255,7 @@ public class Level2 extends AppCompatActivity {
                         Intent intent = new Intent(Level2.this, StoryActivity.class);
                         intent.putExtra("LEVEL", finalLvl_num);
                         startActivity(intent);
+                        finish();
                     } else {
                         lvl_end_window.show();
                     }
@@ -315,6 +316,7 @@ public class Level2 extends AppCompatActivity {
                         Intent intent = new Intent(Level2.this, StoryActivity.class);
                         intent.putExtra("LEVEL", finalLvl_num);
                         startActivity(intent);
+                        finish();
                     } else {
                         lvl_end_window.show();
                     }
@@ -375,6 +377,7 @@ public class Level2 extends AppCompatActivity {
                         Intent intent = new Intent(Level2.this, StoryActivity.class);
                         intent.putExtra("LEVEL", finalLvl_num);
                         startActivity(intent);
+                        finish();
                     } else {
                         lvl_end_window.show();
                     }
@@ -435,6 +438,7 @@ public class Level2 extends AppCompatActivity {
                         Intent intent = new Intent(Level2.this, StoryActivity.class);
                         intent.putExtra("LEVEL", finalLvl_num);
                         startActivity(intent);
+                        finish();
                     } else {
                         lvl_end_window.show();
                     }

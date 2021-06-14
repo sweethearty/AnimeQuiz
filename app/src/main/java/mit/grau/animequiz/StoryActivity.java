@@ -2,7 +2,10 @@ package mit.grau.animequiz;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Dialog;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -18,6 +21,8 @@ public class StoryActivity extends AppCompatActivity {
     int state = 0;
     int[] textArr = null;
     int[] imageIDsArr = null;
+
+    Dialog want_leave;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,6 +66,26 @@ public class StoryActivity extends AppCompatActivity {
 
         further.setVisibility(View.INVISIBLE);
         further.setActivated(false);
+
+        //making leave_lvl_window after back_btn
+        want_leave = new Dialog(this);
+        want_leave.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        want_leave.setContentView(R.layout.leave_lvl_window);
+        want_leave.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        want_leave.setCancelable(false);
+
+        //yes_btn on leave_lvl_window для перехода назад (от StoryActivity к Levels(сёнэн))
+        Button yes_btn = want_leave.findViewById(R.id.yes_btn);
+        yes_btn.setOnClickListener(v -> {
+            Intent intent = new Intent(StoryActivity.this, Levels.class);
+            startActivity(intent);
+            finish();
+            want_leave.dismiss();
+        });
+
+        //no_btn on leave_lvl_window для перехода обратно к игре (на StoryActivity)
+        Button no_btn = want_leave.findViewById(R.id.no_btn);
+        no_btn.setOnClickListener(v -> want_leave.dismiss());
 
         back.setOnClickListener(v -> {
             if (state == 1) {
@@ -108,6 +133,6 @@ public class StoryActivity extends AppCompatActivity {
 
     //remake of System's back_btn on StoryActivity
     @Override
-    public void onBackPressed() {}
+    public void onBackPressed() { want_leave.show(); }
 
 }

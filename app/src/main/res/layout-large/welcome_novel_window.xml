@@ -6,96 +6,92 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/main_bacground"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:contentDescription="@string/todo"
-        android:scaleType="centerCrop"
-        android:src="@drawable/dawn" />
-
-    <ImageView
-        android:id="@+id/lecture_maket"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/lecturer_maket" />
-
-    <ImageView
-        android:id="@+id/dialog_window_maket"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:scaleType="fitEnd"
-        app:srcCompat="@drawable/dialog_place_maket" />
-
     <FrameLayout
-        android:id="@+id/info_and_settings_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="15dp">
+        android:layout_height="match_parent">
 
-        <Button
-            android:id="@+id/back_btn"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_gravity="left"
-            android:background="@drawable/closebtn_black100_press_gray100"
-            android:scaleType="fitStart" />
-
-        <Button
-            android:id="@+id/back1_btn"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_gravity="left"
-            android:background="@drawable/closebtn_black100_press_gray100"
-            android:scaleType="fitStart" />
-
-        <Button
-            android:id="@+id/continue_btn"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_gravity="right"
-            android:background="@drawable/closebtn_black100_press_gray100"
-            android:scaleType="fitStart" />
-
-        <Button
-            android:id="@+id/continue1_btn"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_gravity="right"
-            android:background="@drawable/closebtn_black100_press_gray100"
-            android:scaleType="fitStart" />
-
-        <Button
-            android:id="@+id/further_btn"
+        <ImageView
+            android:id="@+id/main_bacground"
             android:layout_width="wrap_content"
-            android:layout_height="60dp"
-            android:layout_gravity="right"
-            android:text="@string/further_btn"
-            android:textSize="33sp"
-            android:background="@drawable/closebtn_black100_press_gray100"
-            android:scaleType="fitStart" />
+            android:layout_height="match_parent"
+            android:contentDescription="@string/todo"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dawn" />
 
-        <ScrollView
-            android:id="@+id/dialog_maket_layout"
+        <ImageView
+            android:id="@+id/lecture_maket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitEnd"
+            app:srcCompat="@drawable/lecturer_maket" />
+
+        <FrameLayout
+            android:id="@+id/layout_for_dialog"
             android:layout_width="match_parent"
-            android:layout_height="400dp"
-            android:layout_gravity="bottom"
-            android:orientation="horizontal">
+            android:layout_height="350dp"
+            android:layout_gravity="bottom">
 
-            <TextView
-                android:id="@+id/novel_txt"
+            <ImageView
+                android:id="@+id/dialog_window_maket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitEnd"
+                android:scaleX="3.5"
+                app:srcCompat="@drawable/dialog_place_maket" />
+
+            <ScrollView
+                android:id="@+id/dialog_maket_layout"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:padding="10dp"
+                android:layout_height="350dp"
+                android:layout_gravity="bottom"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/novel_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="TextView"
+                    android:textColor="@color/white100"
+                    android:textSize="30sp" />
+            </ScrollView>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/info_and_settings_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp">
+
+            <Button
+                android:id="@+id/back_btn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left"
+                android:background="@drawable/closebtn_black100_press_gray100"
+                android:scaleType="fitStart" />
+
+            <Button
+                android:id="@+id/continue_btn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:background="@drawable/closebtn_black100_press_gray100"
+                android:scaleType="fitStart" />
+
+            <Button
+                android:id="@+id/further_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:background="@drawable/closebtn_black100_press_gray100"
+                android:scaleType="fitStart"
                 android:textColor="@color/white100"
-                android:text="TextView"
-                android:textSize="40sp" />
-        </ScrollView>
-
+                android:text="@string/further_btn"
+                android:textSize="24sp" />
+        </FrameLayout>
     </FrameLayout>
-
-
 </RelativeLayout>

@@ -2,11 +2,11 @@ package mit.grau.animequiz;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
-import android.media.Image;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.Window;
@@ -49,6 +49,7 @@ public class SenenLevel1 extends AppCompatActivity {
     int[] character_namesArr = null;
 
 
+    @SuppressLint("ClickableViewAccessibility")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -247,6 +248,7 @@ public class SenenLevel1 extends AppCompatActivity {
                         Intent intent = new Intent(SenenLevel1.this, StoryActivity.class);
                         intent.putExtra("LEVEL", finalLvl_num);
                         startActivity(intent);
+                        finish();
                     } else {
                         lvl_end_window.show();
                     }
@@ -305,6 +307,7 @@ public class SenenLevel1 extends AppCompatActivity {
                         Intent intent = new Intent(SenenLevel1.this, StoryActivity.class);
                         intent.putExtra("LEVEL", finalLvl_num);
                         startActivity(intent);
+                        finish();
                     } else {
                         lvl_end_window.show();
                     }

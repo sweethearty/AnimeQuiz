@@ -17,8 +17,8 @@
 
         <TextView
             android:id="@+id/preview_close_btn"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:layout_gravity="start"
             android:background="@drawable/startbtn_white95_press_gray100"
             android:gravity="center"
@@ -44,7 +44,7 @@
             android:gravity="center"
             android:text="@string/senen_lvl_three1"
             android:textColor="@color/white100"
-            android:textSize="35sp" />
+            android:textSize="60sp" />
 
         <androidx.core.widget.NestedScrollView
             android:layout_width="wrap_content"
@@ -61,7 +61,7 @@
                     android:gravity="center"
                     android:text="@string/senen_lvl_one2"
                     android:textColor="@color/black95"
-                    android:textSize="28sp" />
+                    android:textSize="40sp" />
         </androidx.core.widget.NestedScrollView>
 
         <Button
@@ -75,7 +75,7 @@
             android:gravity="center"
             android:text="@string/preview_continue_btn"
             android:textColor="@color/white100"
-            android:textSize="30sp" />
+            android:textSize="45sp" />
 
     </LinearLayout>
 </LinearLayout>

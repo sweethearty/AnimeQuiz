@@ -11,7 +11,7 @@
     <LinearLayout
         android:id="@+id/container"
         android:layout_width="wrap_content"
-        android:layout_height="236dp"
+        android:layout_height="336dp"
         android:background="@drawable/leave_lvl_window"
         android:orientation="vertical">
 
@@ -30,19 +30,19 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:text="@string/leave_lvl_headline"
-                android:textSize="30sp"
+                android:textSize="60sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/yesno_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
+                android:gravity="center"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="20dp"
                 android:text="@string/leave_lvl_text"
-                android:textSize="24sp" />
+                android:textSize="40sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -57,25 +57,29 @@
                 android:id="@+id/yes_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginRight="60dp"
                 android:layout_weight="1"
                 android:background="@drawable/startbtn_white95_press_gray100"
                 android:text="@string/leave_lvl_yes"
                 android:textColor="@color/black50"
-                android:textSize="20sp"
+                android:textSize="40sp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
                 android:textStyle="bold" />
 
             <Button
                 android:id="@+id/no_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="30dp"
                 android:layout_weight="1"
                 android:background="@drawable/startbtn_white95_press_gray100"
                 android:text="@string/leave_lvl_no"
                 android:textColor="@color/black50"
-                android:textSize="20sp"
+                android:textSize="40sp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
                 android:textStyle="bold" />
         </LinearLayout>
 

@@ -70,7 +70,7 @@
 
                         <ImageButton
                             android:id="@+id/senen_imbtn"
-                            android:layout_width="570dp"
+                            android:layout_width="460dp"
                             android:layout_height="400dp"
                             android:backgroundTint="#00FFFFFF"
                             android:scaleType="fitCenter"
@@ -87,7 +87,7 @@
 
                         <ImageButton
                             android:id="@+id/detective_imbtn"
-                            android:layout_width="570dp"
+                            android:layout_width="460dp"
                             android:layout_height="400dp"
                             android:backgroundTint="#00FFFFFF"
                             android:scaleType="fitCenter"
@@ -103,7 +103,7 @@
 
                         <ImageButton
                             android:id="@+id/comedy_imbtn"
-                            android:layout_width="570dp"
+                            android:layout_width="460dp"
                             android:layout_height="400dp"
                             android:backgroundTint="#00FFFFFF"
                             android:scaleType="fitCenter"
@@ -119,7 +119,7 @@
 
                         <ImageButton
                             android:id="@+id/sedze_imbtn"
-                            android:layout_width="570dp"
+                            android:layout_width="460dp"
                             android:layout_height="400dp"
                             android:backgroundTint="#00FFFFFF"
                             android:scaleType="fitCenter"

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/lvl_preview"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -25,10 +24,19 @@
             android:textColor="@color/white100"
             android:textSize="45sp" />
 
+        <TextView
+            android:id="@+id/end_window_lvl_name_smile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/senen_end_lvl_gameover_smile"
+            android:textColor="@color/white100"
+            android:textSize="45sp" />
+
         <androidx.core.widget.NestedScrollView
             android:layout_width="wrap_content"
             android:layout_height="0dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="10dp"
             android:layout_weight="60"
             android:fillViewport="true"
             android:gravity="center">
@@ -47,8 +55,8 @@
             android:id="@+id/preview_close_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="5dp"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
             android:gravity="center"
             android:background="@drawable/closebtn_black100_press_gray100"
             android:text="@string/lvl_endwindow_btn"

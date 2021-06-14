@@ -8,7 +8,7 @@
 
     <ImageView
         android:id="@+id/main_bacground_dawn"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:contentDescription="@string/todo"
         android:scaleType="centerCrop"
@@ -64,7 +64,7 @@
             android:gravity="center"
             android:text="@string/info2"
             android:textColor="@android:color/white"
-            android:textSize="13sp"
+            android:textSize="20sp"
             android:visibility="visible"
             tools:ignore="SmallSp" />
     </LinearLayout>
@@ -98,7 +98,7 @@
             android:gravity="center"
             android:text="@string/settings2"
             android:textColor="@android:color/white"
-            android:textSize="13sp"
+            android:textSize="20sp"
             android:visibility="visible"
             tools:ignore="SmallSp" />
     </LinearLayout>
